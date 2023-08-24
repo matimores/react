@@ -1,16 +1,21 @@
 import './App.css';
+
 import Navbar from './componente/Navbar'
-import Title from './componente/itemListContainer';
+import ItemListContainer from './componente/itemListContainer';
+
 
 
 function App() {
 return (
     <>
       <header className='header'>
-        <Title />
+      <ItemListContainer />
+      
       </header>
 
-      <Navbar />
+      <Navbar /> 
+
+      
 
 
     </>

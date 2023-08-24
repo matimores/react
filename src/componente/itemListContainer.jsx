@@ -1,21 +1,21 @@
 
-const Greeting = ({ text }) => {
-    return <h1>{text}</h1>;
-
+const Header = ({ title }) => {
+    return (
+        <header>
+            <h1> {title} </h1>
+        </header>
+    );
 };
 
-function Title() {
-    const texto = "MORES SECURITY"
+
+const ItemListContainer = () => {
+
     return (
-        <>
-            < Greeting text={texto} />
-        </>
+        <div className="titulo">
+            < Header title="MORES SECURITY" />
+        </div>
 
-    )
+    );
+};
 
-}
-
-export default Title
-
-
-
+export default ItemListContainer
