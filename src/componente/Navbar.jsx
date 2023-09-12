@@ -1,4 +1,5 @@
-import CardWidget from "./CartWidget"
+import { Link } from "react-router-dom"
+import CartWidget from "./CartWidget"
 
 
 
@@ -6,8 +7,8 @@ function Navbar() {
     return (
         <>
             <nav class="navbar navbar-expand-xl ">
-                <div class="logo">
-                    <a href=""> <img src="../img/logo.png" alt="" />  </a>
+                <div className="logoNav">
+                    <Link to="/"> <img class="logo" src="../../public/img/logo.png" alt="" />  </Link>
                 </div>
                 <div class="container-fluid">
 
@@ -19,27 +20,27 @@ function Navbar() {
                     <div class="collapse navbar-collapse" >
                         <ul class="navbar-nav ">
                             <li class="nav-item">
-                                <a class="nav-link" href="#">CAMARAS</a>
+                                <Link  class="nav-link" to="/category/camaras">CAMARAS</Link>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">SISTEMAS SOLARES</a>
+                                <Link class="nav-link" to="/category/solar">SOLAR</Link>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">KITS</a>
+                                <Link class="nav-link" to="/category/kits">KITS</Link>
                             </li>
 
                             <li class="nav-item">
-                                <a class="nav-link" href="#">NOSOTROS</a>
+                                <Link class="nav-link" to="/nosotros">NOSOTROS</Link>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">CONTACTO</a>
+                                <Link class="nav-link" to="/contacto">CONTACTO</Link>
                             </li>
 
                         </ul>
 
                     </div>
                 </div>
-                < CardWidget />
+                < CartWidget />
 
             </nav>
 

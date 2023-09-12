@@ -1,0 +1,119 @@
+[
+    {
+        "id": 1,
+        "title": "Camara Seguridad Domo Hikvision 2mpx Audio Incorporado",
+        "image": " ../../public/imgProductos/camara1.webp",
+        "price": 100,
+        "stock": 5,
+        "category": "camaras",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Odio morbi quis commodo odio aenean sed adipiscing diam donec. Orci nulla pellentesque dignissim enim sit."
+    },
+    {
+        "id": 2,
+        "title": "Cámara de seguridad Hikvision DS-2CE16D0T-IPF con resolución de 2MP visión nocturna",
+        "image": " ../../public/imgProductos/camara2.webp",
+        "price": 200,
+        "stock": 5,
+        "category": "camaras",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Odio morbi quis commodo odio aenean sed adipiscing diam donec. Orci nulla pellentesque dignissim enim sit."
+    },
+    {
+        "id": 3,
+        "title": "Camara Seguridad Hikvision Full Hd 1080p 16d0t-exipf Ext",
+        "image": " ../../public/imgProductos/camara3.webp",
+        "price": 300,
+        "stock": 5,
+        "category": "camaras",
+        "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Odio morbi quis commodo odio aenean sed adipiscing diam donec. Orci nulla pellentesque dignissim enim sit."
+    },
+    {
+        "id": 4,
+        "title": "Camara Domo Dahua Hd 720p Exterior Metalica Cctv Seguridad",
+        "image": " ../../public/imgProductos/camara4.webp",
+        "price": 400,
+        "stock": 5,
+        "category": "camaras",
+        "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Odio morbi quis commodo odio aenean sed adipiscing diam donec. Orci nulla pellentesque dignissim enim sit."
+    },
+    {
+        "id": 5,
+        "title": "SOLAR",
+        "image": " ../../public/imgProductos/solar5.png",
+        "price": 500,
+        "stock": 5,
+        "category": "solar" ,
+        "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Odio morbi quis commodo odio aenean sed adipiscing diam donec. Orci nulla pellentesque dignissim enim sit."
+    },
+    {
+        "id": 6,
+        "title": "SOLAR",
+        "image": " ../../public/imgProductos/solar6.webp",
+        "price": 600,
+        "stock": 5,
+        "category": "solar" ,
+        "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Odio morbi quis commodo odio aenean sed adipiscing diam donec. Orci nulla pellentesque dignissim enim sit."
+    },
+    {
+        "id": 7,
+        "title": "SOLAR",
+        "image": " ../../public/imgProductos/solar7.png",
+        "price": 700,
+        "stock": 5,
+        "category": "solar" ,
+        "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Odio morbi quis commodo odio aenean sed adipiscing diam donec. Orci nulla pellentesque dignissim enim sit."
+    },
+    {
+        "id": 8,
+        "title": "SOLAR",
+        "image": " ../../public/imgProductos/solar8.png",
+        "price": 800,
+        "stock": 5,
+        "category": "solar" ,
+        "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Odio morbi quis commodo odio aenean sed adipiscing diam donec. Orci nulla pellentesque dignissim enim sit."
+    },
+    {
+        "id": 9,
+        "title": "KITS",
+        "image": " ../../public/imgProductos/kits9.png",
+        "price": 900,
+        "stock": 5,
+        "category": "kits" ,
+        "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Odio morbi quis commodo odio aenean sed adipiscing diam donec. Orci nulla pellentesque dignissim enim sit."
+    },
+    {
+        "id": 10,
+        "title": "KITS",
+        "image": " ../../public/imgProductos/kits10.png",
+        "price": 1000,
+        "stock": 5,
+        "category": "kits" ,
+        "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Odio morbi quis commodo odio aenean sed adipiscing diam donec. Orci nulla pellentesque dignissim enim sit."
+    },
+    {
+        "id": 11,
+        "title": "KITS",
+        "image": " ../../public/imgProductos/kits11.png",
+        "price": 1100,
+        "stock": 5,
+        "category": "kits" ,
+        "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Odio morbi quis commodo odio aenean sed adipiscing diam donec. Orci nulla pellentesque dignissim enim sit."
+    },
+    {
+        "id": 12,
+        "title": "KITS",
+        "image": " ../../public/imgProductos/kits12.png",
+        "price": 1200,
+        "stock": 5,
+        "category": "kits" ,
+        "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Odio morbi quis commodo odio aenean sed adipiscing diam donec. Orci nulla pellentesque dignissim enim sit."
+    },
+    {
+        "id": 13,
+        "title": "KITS",
+        "image": " ../../public/imgProductos/kits13.webp",
+        "price": 1300,
+        "stock": 5,
+        "category": "kits" ,
+        "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Odio morbi quis commodo odio aenean sed adipiscing diam donec. Orci nulla pellentesque dignissim enim sit."
+    }
+]

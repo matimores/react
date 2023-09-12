@@ -1,79 +1,121 @@
-*{
-    margin: 0;
-    padding: 0;
+* {
+    margin: 0px;
+    padding: 0px;
     width: 100%;
-}
-body{
-    background-image: url(../img/camaras.webp);
-    background-repeat: no-repeat;
-    background-size: cover;
+    
+
+
 }
 
-.titulo{
+body,html {
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-image: url(../public/img/camaras.webp);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+
+
+/* header */
+
+
+
+.titulo {
     position: absolute;
     top: 0px;
     background-color: rgb(54, 131, 248);
     text-align: center;
-    color: black;
-    font-weight: bolder;
-    font-family: sans-serif;
-    font-size: 10px;
-    height: 7vh;
-}
-header{
-   margin-top: 10px;
+    
+
 }
 
-.navbar{
-    margin-top: -43vh;
-    background-color: rgba(114, 113, 113, 0.726);
-    width: 100%;
+.header {
+    font-size: 30px;
+}
+
+
+/* nav */
+
+
+.navbar {
     display: flex;
     justify-content: space-between;
+    position: absolute;
+    top: 62px;
+    width: 100%;
+
+
+
+
 }
-.logo{
+
+.logoNav {
+    width: 25vw;
+}
+
+.logo {
     background-color: white;
-    width: 10vw;
-    margin-right: 50px;
+    width: 8vw;
+    margin-bottom: 3vh;
     margin-left: 20px;
     border-radius: 20px;
 }
 
-.navbar-nav{
+
+.navbar-nav {
     text-align: end;
-    
-}
-.container-fluid{
-    width: 40vw;
-    
+
 }
 
-  
-.nav-link{
+.container-fluid {
+    width: 70%;
+
+
+}
+
+
+.nav-link {
+
     color: black;
-    width: 11vw;
-    height: 5vh;
-    margin-right: 15px;
+    width: 10vw;
+    height: auto;
     margin-top: 5px;
     padding: 5px;
-    font-size: 15px;
+    font-size: 18px;
     background-color: rgba(146, 147, 150, 0.781);
     text-align: center;
     border-radius: 10px;
+
 }
-.widget-carrito{
-    background-color: white;
+
+.nav-link:hover {
+    background-color: black;
+    color: white;
+}
+
+
+
+.cartProductos {
     text-align: center;
-    width: 5vw;
-    height: 10vh;
-    margin-left: 40px;
-    margin-right: 20px;
-    margin-top: 30px;
-    padding: 10px;
-    border-radius: 20px;
+    height: 40vh;
+    margin-top: 10vh;
+
 }
-.contador{
-    font-size: 20px;
-   
-    
+
+.productos {
+    display: inline-block;
+    background-color: rgb(252, 251, 251);
+    padding: 20px;
+    width: 14vw;
+    height: 50vh;
+    margin-right: 100px;
+    border-radius: 15px;
+}
+
+.img {
+    width: 13vw;
+    height: 20vh;
+    margin-bottom: 15px;
 }
