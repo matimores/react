@@ -1,41 +1,44 @@
-import { useEffect, useState } from "react";
-import productosJson from "../productos.json"
-import { useParams } from "react-router-dom";
+
 import ItemDetail from "./ItemDetail";
+import { useEffect, useState } from "react"
+import { useParams } from "react-router-dom";
+import { doc, getDoc, getFirestore } from "firebase/firestore";
 
-const mockApi =(itemId) => {
-    return new Promise((resolve, reject) => {
-        setTimeout(() => {
-            if (itemId !== undefined){
-                const filtrado = productosJson.find(
-                    (item) => item.id == itemId
-                );
-                resolve(filtrado)
-            } else {
-                resolve(productosJson);
-            }
-        },
-            1000);
-    });
-};
 
-const ItemDetailContainer = ({}) => {
-    const [products, setProducts] = useState([]);
-    const { itemId } = useParams()
 
-    useEffect(() => {
-        mockApi(itemId)
-        .then(data => setProducts(data));
-    }, [itemId]);
-console.log(products)
+const ItemDetailContainer = () => {
+
+ const [data, setData] = useState([]);
+ const {detalleId} = useParams();
+
+ useEffect(() => {
+    const querydb = getFirestore();
+    const Doc = doc(querydb, "Productos", detalleId);
+   getDoc(Doc).then(doc => setData({id: doc.id, ...doc.data()}))
+
+
+ }, [detalleId]);
+
+
     return (
         <div>
-            <ItemDetail product={products} />
-
+            <ItemDetail product={data} />
         </div>
     )
-
 }
-
+ 
 export default ItemDetailContainer
+
+
+
+
+
+
+
+
+
+
+
+
+
 

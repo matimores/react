@@ -1,0 +1,21 @@
+.formCheckout {
+    background-color: rgba(139, 138, 138, 0.644);
+    width: 50vw;
+    padding: 30px;
+    border-radius: 15px;
+    margin-left: 25%;
+    margin-top: 100px;
+}
+
+.input {
+    background-color: rgba(39, 39, 39, 0.863);
+    width: 45vw;
+    height: 6vh;
+
+}
+
+.buttonCheckout {
+    width: 45vw;
+    height: 6vh;
+    margin-top: 20px;
+}

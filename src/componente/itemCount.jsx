@@ -1,11 +1,6 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 
-
-
-
-
-
-function ItemCount({ stock , onAdd }) {
+function ItemCount({initial, stock , onAdd }) {
 
     const [count, setCount] = useState(0)
 
@@ -21,7 +16,7 @@ function ItemCount({ stock , onAdd }) {
             setCount(count - 1)
         }
 
-       
+        
     }
     return (
         <div className="count">

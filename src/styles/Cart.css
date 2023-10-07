@@ -1,0 +1,17 @@
+.divCart{
+    display: block;
+    margin-top: 30vh;
+    width: 100%;
+    height: 70vh;
+    
+   
+}
+
+div.itemCart{
+    display: block;
+    justify-content: center;
+    margin-top: 10px;
+    margin-left: 30%;
+    width: 40vw;
+    border: black 2px solid;
+}

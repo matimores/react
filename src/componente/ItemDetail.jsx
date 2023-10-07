@@ -3,11 +3,13 @@ import ItemCount from "./itemCount"
 import { CartContext } from '../context/cartContext'
 import { useState, useContext } from "react"
 
+
+
 const ItemDetail = ({ product }) => {
 
     const [clickCount, setClickCount] = useState();
     const { addItem } = useContext(CartContext);
-
+    
     const onAdd = (valor) => {
         setClickCount(valor);
 
@@ -18,7 +20,7 @@ const ItemDetail = ({ product }) => {
     }
     return (
         <div className="detail">
-            <img className="imgDetail" src={product.image} />
+            <img className="imgDetail" src={product.imagen} />
             <h2 className="infoDetail">{product.title}</h2>
             <p className='detalleDetail'>{product.description}</p>
             {clickCount ?

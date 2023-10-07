@@ -1,0 +1,21 @@
+.itemCart{
+    display: block;
+    text-align: center;
+    width: 20vw;
+    height: auto;
+    padding: 10px;
+    margin-left: 40%;
+    margin-top: 20%;
+    border-radius: 15px;
+    background-color: white;
+}
+.titleCart{
+    font-size: 15px;
+}
+.imgCart{
+    width: 8vw;
+}
+.infoCart{
+    color: black;
+    height: 4vh;
+}
